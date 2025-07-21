@@ -7,3 +7,4 @@ git log                     Mostra o histório de commits
 git clone <url>             Clona um repositório remoto
 git push                    Envia os commits locais para o GitHub (ou outro remoto)
 git pull                    Atualiza o repositório local com base no remoto
+git commit -a -m "mensagem" Commita e adiciona tudo
