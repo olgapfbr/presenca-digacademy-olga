@@ -1,0 +1,20 @@
+soma = a + b
+sub = a - b
+multi = a * b
+divisao = a / b
+resto = a % b (serve pra saber se o num é par ou ímpar, 0 é multiplo de 2, então o num é par)
+
+Comparação
+== significa igual
+!= significa diferente
+> significa maior
+< significa menor
+>= significa maior ou igual
+<= significa menor ou igual
+
+=== --> é uma Comparação estrita, ele realmente confere se é igual, aka, ele verifica o tipo, se for só ==, é chamado de comparação ampla e ele dá true, por exemplo, se for o memso tipo
+
+Operações booleanas
+e (and) = condicao1 E condicao2
+ou (or) = condicao1 OU condicao2
+não (not) = NÃO condicao 
