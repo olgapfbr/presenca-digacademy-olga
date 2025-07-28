@@ -6,6 +6,7 @@ resto = a % b (serve pra saber se o num é par ou ímpar, 0 é multiplo de 2, en
 
 Comparação
 == significa igual
+=== igualdade estrita (verifica o tipo)
 != significa diferente
 > significa maior
 < significa menor
