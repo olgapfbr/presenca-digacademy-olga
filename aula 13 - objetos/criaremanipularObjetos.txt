@@ -1,0 +1,8 @@
+let person = {
+    name: "Natalia",
+    age: 31,
+};
+
+console.log (
+    Hello, my name is + person.name +  and I am  + person.age.
+)
