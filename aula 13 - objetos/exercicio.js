@@ -82,3 +82,20 @@ let scores = {
 
 let total = 0;
 
+for (let player in scores) {
+    total += scores[player];
+}
+
+console.log("Total: " + total)
+
+
+
+let agenda = {
+    contacts: [
+        { name: "Alice", phone: "1234567"},
+        { name: "Bob", phone: "987654321"},
+],
+
+
+    
+}
