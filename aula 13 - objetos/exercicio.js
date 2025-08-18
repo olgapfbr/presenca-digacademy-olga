@@ -13,12 +13,35 @@
 
 // console.log(cat)
 
-let dog = {
-    name: "Abu",
-    breed: "Lhasa apso",
-    bark: function(){
-        console.log("Woof!")
+// let dog = {
+//    name: "Abu",
+//    breed: "Lhasa apso",
+//    bark: function(){
+//        console.log("Woof!")
+//    }
+//}
+
+//dog.bark()
+
+// let market = [
+//    { name: "Pão de forma", price: 10 },
+//    { name: "Manteiga", price: 15},
+//];
+
+//for (let i = 0; i < market.length; i++) {
+//    console.log("Produto: " + market[i].name + ", Preço: R$" + market[i].price);
+//}
+   
+let movie = {
+    name: "Indiana Jones",
+    director: "Steven Spielberg",
+    review: {
+        rating: 10,
+        comment: "Lindezo"
     }
 }
 
-dog.bark()
+console.log(
+    movie.name + ` de ` + movie.director + ` tem nota ` + movie.review.rating + ` com o comentário: ` + movie.review.comment
+)
+
